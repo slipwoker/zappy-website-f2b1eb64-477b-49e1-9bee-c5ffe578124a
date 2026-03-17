@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גלה את עולם הגיימינג המרתק עם GameStorm - מדריכים מקיפים ל-The Last of Us, Raid Shadow Legends ו-God of War Ragnarok. הצטרף לקהילת הגיימרים המובילה עכשיו!
+
+### אודות
+https://example.com/about
+למדו איך GameStorm הפכה ליעד המוביל לאוהבי גיימינג בישראל. אנחנו מביאים לכם תוכן איכותי, ביקורות מעמיקות וקהילה תומכת שחיה ונושמת משחקים.
+
+### קהילה
+https://example.com/community
+קהילת GameStorm מחכה לך! שתף טיפים, גלה אסטרטגיות מנצחות ל-Raid Shadow Legends ו-God of War Ragnarok, והכר גיימרים בעלי תחומי עניין משותפים.
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה או הצעה? צוות GameStorm כאן בשבילך! צור קשר עכשיו וקבל תשובות מהירות מהמומחים שלנו לכל נושא גיימינג שמעניין אותך.
+
+### Products
+https://example.com/products
+המוצרים שלנו - GameStorm
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - GameStorm
+
+### Category
+https://example.com/category/:slug
+מוצרים - GameStorm
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
