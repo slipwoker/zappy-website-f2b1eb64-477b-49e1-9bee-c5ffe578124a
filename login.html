@@ -221,8 +221,6 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -232,10 +230,12 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -332,7 +332,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="GameStorm" class="logo" />
+        <img src="/assets/business-logo.webp" alt="GameStorm" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
@@ -390,7 +390,7 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-column company-info">
-        <img src="/assets/business-logo.webp" alt="GameStorm" class="logo" />
+        <img src="/assets/business-logo.webp" alt="GameStorm" class="logo">
         <p class="company-description">הפלטפורמה המובילה לגיימרים בישראל. הצטרפו לקהילה שלנו וחוו את עולם הגיימינג במיטבו.</p>
       </div>
       
@@ -547,7 +547,6 @@
     }
   })();
   </script>
-    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
@@ -607,12 +606,12 @@
       var nb=document.querySelector('nav.navbar,.navbar:not(.zappy-catalog-menu)');
       var cm=document.querySelector('.zappy-catalog-menu,#zappy-catalog-menu');
       if(!nb)return;
-      var fb='rgba(11,18,32,0.85)';
+      var fb='rgba(241,243,246,0.85)';
       var th=60;
       var rs=getComputedStyle(document.documentElement);
       var td=rs.getPropertyValue('--text-dark').trim()||'#1a1a1a';
       var tl=rs.getPropertyValue('--text-light').trim()||'#ffffff';
-      var st=false?td:tl;
+      var st=true?td:tl;
       nb.style.transition='background 0.3s ease,backdrop-filter 0.3s ease,-webkit-backdrop-filter 0.3s ease,box-shadow 0.3s ease';
       if(cm)cm.style.transition='background 0.3s ease,backdrop-filter 0.3s ease,-webkit-backdrop-filter 0.3s ease';
       var neSel='a,.navbar-brand,.navbar-brand a,.dropdown-toggle,.mobile-toggle,.phone-header-btn,.mobile-hamburger-btn,.mobile-close-btn,.mobile-submenu-toggle,.nav-link';
